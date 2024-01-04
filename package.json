@@ -1,0 +1,32 @@
+{
+  "name": "react-samples",
+  "version": "1.0.0",
+  "description": "Documenting useful concepts and book reads. \r Currently includes useful code from the books:\r - [React Quickly](https://amzn.to/48HkBji) which comes with a website containing samples. \r - [ReactJS Foundations](https://amzn.to/3S6FRK7) is a good book to pair with  React Quickly as they both have different styles of information-sharing. I found the code herein to be a bit differently setup than the other book, but this was in fact one of the first newer books I've picked up for my learning. In the past, I also read\r - [React Up & Running](https://amzn.to/3NL8ude) which is also good. It's a quick read and covers the absolute essentials, but doesn't cover everything. You can finish this book in less than a week, while the other 2 books would take a few weeks if done in tandem with coding on a local system.",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
