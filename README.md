@@ -10,16 +10,16 @@ If I had the time, I would look into the other books:
 - [Full-Stack Web Development with GraphQL and React](https://amzn.to/3NMqsvK)
 
 Project plan
-- [] Use create-react-app (CRA) to create and run a first sample App.
+- [ ] Use create-react-app (CRA) to create and run a first sample App.
 - [X] Setup a basic project without using CRA - minimalist project to start with. 
 - [X] Ensure this is working and runs locally. 
-- [] Add on to add fun 'apps' like a Calculator, Timer, To-do list and filters, along with fetching and rendering the data. 
-- [] Add links to the apps so they're easy to navigate i.e React Routers
-- [] Visualization of this data using third-party libraries.
-- [] Use Typescript examples as a seperate project, while starting with JS/JSX.
-- [] Add a server that does something - looking into something like  GraphQL as I've been curious on how it pans out vs Sql-based RDBMS I've used for the most part (with the exception of MongoDB)
-- [] Update Readme periodically  with a focus on important concepts. 
-- [] Add other eco systems into the mix, Node.js, Next.js are defaults to start with.  
+- [ ] Add on to add fun 'apps' like a Calculator, Timer, To-do list and filters, along with fetching and rendering the data. 
+- [ ] Add links to the apps so they're easy to navigate i.e React Routers
+- [ ] Visualization of this data using third-party libraries.
+- [ ] Use Typescript examples as a seperate project, while starting with JS/JSX.
+- [ ] Add a server that does something - looking into something like  GraphQL as I've been curious on how it pans out vs Sql-based RDBMS I've used for the most part (with the exception of MongoDB)
+- [ ] Update Readme periodically  with a focus on important concepts. 
+- [ ] Add other eco systems into the mix, Node.js, Next.js are defaults to start with.  
 
 You can create a sample project from scratch locally by following the steps below. 
 1. Create a Node project by running this in the folder of choice. This should create a package.json file, which can also be manually configured. 
@@ -59,16 +59,15 @@ Most tutorials only require to install the first 2 libraries, and I concur. Howe
 
 5. Start the server using `npm start`
 
-You will see this error. 
+- You will see this error. 
     ```
     Could not find a required file.
     Name: index.html
     Searched in: c:\code\personal-learning\react\react-samples\public
     ```
-This is progress!  Create two folders `src`and `public`. You can change this as per the needs of your project. I've based this off the CRA structure for simplicity. 
-    - Create `public`directory, `mkdir public`
-
-    Add an `index.html` file 
+This is progress!  
+- Create two folders `src`and `public`. You can change this as per the needs of your project. I've based this off the CRA structure for simplicity. 
+    - Create `public` directory, `mkdir public`. Add an `index.html` file within this folder: 
     ```
         <!DOCTYPE html>
         <html lang="en">
@@ -83,10 +82,10 @@ This is progress!  Create two folders `src`and `public`. You can change this as 
         </body>
         </html>
     ```
-
     - Create a `src` directory. `mkdir src`
         Add 2 files to it:
        - App.js - This is a React component that translates to HTML. 
+       
         ```
         import React from "react";
         const App = () => {
@@ -125,10 +124,9 @@ Run `npm start` again, and you will be asked to set a default browser in package
 6. Before committing any changes to your code repository, make sure you have a .gitignore file that excludes, at a minimum, the `node_modules` folder. 
 
 7. (Optional) To host the site for free to view outside of a localhost, you need any HTTP server (Apache, NGINX, Python etc.). It can be a web server, node server, or Netlify. 
-
-    - Node http server: follow commented steps above
+  <!--  - Node http server: follow commented steps above
         ```npx http-server src```
-
+  -->
     - To serve globally: 
         ```npm install -g serve```
 We will come back to this later. 
