@@ -47,7 +47,13 @@ Compile using `npx webpack`
 
 Most tutorials only require to install the first 2 libraries, and I concur. However, I wanted to try avoiding the hassle of installing Webpack, HtmlWebpackplugin, Babel, and even ESLint etc. and use what the `create-react-app` project had in it's package.json. Adding `react-scripts ` seemed to be the missing link, and adding that and running a set of shortcut scripts (in step 3.) did the same magic of installing a new server. 
  Note that I got this working without using Webpack, HtmlWebpackplugin, babel etc. All of that is automatically setup when using react-scripts. However, this will be setup later for completeness and clarity. 
-
+  
+  Install react dev tools. 
+  `npm install -g react-devtools`
+ 
+ Install react-router-dom. 
+  `npm install react-router-dom`
+  
 3. Replace the `scripts` section, with the following lines of code to `package.json`.
     ```
     "scripts": {
@@ -62,16 +68,15 @@ Most tutorials only require to install the first 2 libraries, and I concur. Howe
 
 5. Start the server using `npm start`
 
-You will see this error. 
+- You will see this error. 
     ```
     Could not find a required file.
     Name: index.html
     Searched in: c:\code\personal-learning\react\react-samples\public
     ```
-This is progress!  Create two folders `src`and `public`. You can change this as per the needs of your project. I've based this off the CRA structure for simplicity. 
-    - Create `public`directory, `mkdir public`
-
-    Add an `index.html` file 
+This is progress!  
+- Create two folders `src`and `public`. You can change this as per the needs of your project. I've based this off the CRA structure for simplicity. 
+    - Create `public` directory, `mkdir public`. Add an `index.html` file within this folder: 
     ```
         <!DOCTYPE html>
         <html lang="en">
@@ -86,10 +91,10 @@ This is progress!  Create two folders `src`and `public`. You can change this as 
         </body>
         </html>
     ```
-
     - Create a `src` directory. `mkdir src`
         Add 2 files to it:
        - App.js - This is a React component that translates to HTML. 
+       
         ```
         import React from "react";
         const App = () => {
@@ -128,10 +133,9 @@ Run `npm start` again, and you will be asked to set a default browser in package
 6. Before committing any changes to your code repository, make sure you have a .gitignore file that excludes, at a minimum, the `node_modules` folder. 
 
 7. (Optional) To host the site for free to view outside of a localhost, you need any HTTP server (Apache, NGINX, Python etc.). It can be a web server, node server, or Netlify. 
-
-    - Node http server: follow commented steps above
+  <!--  - Node http server: follow commented steps above
         ```npx http-server src```
-
+  -->
     - To serve globally: 
         ```npm install -g serve```
 We will come back to this later. 
