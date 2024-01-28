@@ -10,16 +10,19 @@ If I had the time, I would look into the other books:
 - [Full-Stack Web Development with GraphQL and React](https://amzn.to/3NMqsvK)
 
 Project plan
-- [ ] Use create-react-app (CRA) to create and run a first sample App.
+- [X] Use create-react-app (CRA) to create and run a first sample App - refer PR/branch.
 - [X] Setup a basic project without using CRA - minimalist project to start with. 
 - [X] Ensure this is working and runs locally. 
-- [ ] Add on to add fun 'apps' like a Calculator, Timer, To-do list and filters, along with fetching and rendering the data. 
-- [ ] Add links to the apps so they're easy to navigate i.e React Routers
-- [ ] Visualization of this data using third-party libraries.
-- [ ] Use Typescript examples as a seperate project, while starting with JS/JSX.
-- [ ] Add a server that does something - looking into something like  GraphQL as I've been curious on how it pans out vs Sql-based RDBMS I've used for the most part (with the exception of MongoDB)
-- [ ] Update Readme periodically  with a focus on important concepts. 
-- [ ] Add other eco systems into the mix, Node.js, Next.js are defaults to start with.  
+- [X] Add on to add fun 'apps' like a Calculator, Timer, along with fetching and rendering the data. 
+- [X] Add links to the apps so they're easy to navigate i.e Routing
+- [] Filter and CRUD fetched data
+- [] Seperate List from Detailed information.
+- [] Visualization of this data using third-party libraries.
+- [] Use Typescript examples as a seperate project.
+- [] Add a 'server' that does something - looking into something like GraphQL as I've been curious on how it pans out vs Sql-based RDBMS I've used for the most part (with the exception of MongoDB)
+- [] Simple server setup that allows from CRUD and filter operations.
+- [] Update Readme periodically  with a focus on important concepts. 
+- [] Add relevant eco systems into the mix: for instance Next.js are defaults to start with.  
 
 You can create a sample project from scratch locally by following the steps below. 
 1. Create a Node project by running this in the folder of choice. This should create a package.json file, which can also be manually configured. 
@@ -44,7 +47,13 @@ Compile using `npx webpack`
 
 Most tutorials only require to install the first 2 libraries, and I concur. However, I wanted to try avoiding the hassle of installing Webpack, HtmlWebpackplugin, Babel, and even ESLint etc. and use what the `create-react-app` project had in it's package.json. Adding `react-scripts ` seemed to be the missing link, and adding that and running a set of shortcut scripts (in step 3.) did the same magic of installing a new server. 
  Note that I got this working without using Webpack, HtmlWebpackplugin, babel etc. All of that is automatically setup when using react-scripts. However, this will be setup later for completeness and clarity. 
-
+  
+  Install react dev tools. 
+  `npm install -g react-devtools`
+ 
+ Install react-router-dom. 
+  `npm install react-router-dom`
+  
 3. Replace the `scripts` section, with the following lines of code to `package.json`.
     ```
     "scripts": {
