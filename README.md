@@ -15,14 +15,14 @@ Project plan
 - [X] Ensure this is working and runs locally. 
 - [X] Add on to add fun 'apps' like a Calculator, Timer, along with fetching and rendering the data. 
 - [X] Add links to the apps so they're easy to navigate i.e Routing
-- [] Filter and CRUD fetched data
-- [] Seperate List from Detailed information.
-- [] Visualization of this data using third-party libraries.
-- [] Use Typescript examples as a seperate project.
-- [] Add a 'server' that does something - looking into something like GraphQL as I've been curious on how it pans out vs Sql-based RDBMS I've used for the most part (with the exception of MongoDB)
-- [] Simple server setup that allows from CRUD and filter operations.
-- [] Update Readme periodically  with a focus on important concepts. 
-- [] Add relevant eco systems into the mix: for instance Next.js are defaults to start with.  
+- [ ] Filter and CRUD fetched data
+- [ ] Seperate List from Detailed information.
+- [ ] Visualization of this data using third-party libraries.
+- [ ] Use Typescript examples as a seperate project.
+- [ ] Add a 'server' that does something - looking into something like GraphQL as I've been curious on how it pans out vs Sql-based RDBMS I've used for the most part (with the exception of MongoDB)
+- [ ] Simple server setup that allows from CRUD and filter operations.
+- [ ] Update Readme periodically  with a focus on important concepts. 
+- [ ] Add relevant eco systems into the mix: for instance Next.js are defaults to start with.  
 
 You can create a sample project from scratch locally by following the steps below. 
 1. Create a Node project by running this in the folder of choice. This should create a package.json file, which can also be manually configured. 
