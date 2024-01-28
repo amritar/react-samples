@@ -13,12 +13,14 @@ Project plan
 - [X] Use create-react-app (CRA) to create and run a first sample App - refer PR/branch.
 - [X] Setup a basic project without using CRA - minimalist project to start with. 
 - [X] Ensure this is working and runs locally. 
-- [X] Add on to add fun 'apps' like a Calculator, Timer, To-do list and filters, along with fetching and rendering the data. 
-- [] Add links to the apps so they're easy to navigate i.e Routing
+- [X] Add on to add fun 'apps' like a Calculator, Timer, along with fetching and rendering the data. 
+- [X] Add links to the apps so they're easy to navigate i.e Routing
+- [] Filter and CRUD fetched data
+- [] Seperate List from Detailed information.
 - [] Visualization of this data using third-party libraries.
-- [] Use Typescript examples as a seperate project, while starting with JS/JSX.
+- [] Use Typescript examples as a seperate project.
 - [] Add a 'server' that does something - looking into something like GraphQL as I've been curious on how it pans out vs Sql-based RDBMS I've used for the most part (with the exception of MongoDB)
-- [] Simple server setup
+- [] Simple server setup that allows from CRUD and filter operations.
 - [] Update Readme periodically  with a focus on important concepts. 
 - [] Add relevant eco systems into the mix: for instance Next.js are defaults to start with.  
 
